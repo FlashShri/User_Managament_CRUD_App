@@ -1,4 +1,4 @@
-<%@page import="com.user.model.User"%>
+
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
@@ -32,7 +32,7 @@
   </div>
 	 <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Name</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" name="name" aria-describedby="emailHelp" value<%= %>>
+    <input type="text" class="form-control" id="exampleInputEmail1" name="name" aria-describedby="emailHelp" >
    
   </div>
   <div class="mb-3">

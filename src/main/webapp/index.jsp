@@ -9,11 +9,7 @@
 </head>
 <body>
 
-
-<a class="btn btn-primary" href="#" role="button">Add user</a>
-
-
-<h1>Employee List</h1>
+<h1>User Managament App</h1>
 <div class="container">
 
 <div class="row">
@@ -24,16 +20,16 @@
       </div>
     </div>
   </div>
-  <form action="listservlet" >
+  
   <div class="col-sm-6">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">View all users</h5>
-        <button class="btn btn-primary" type="submit">view list</button>
+        <a href="http://localhost:8084/UserManagementApp/listservlet" class="btn btn-primary">View List</a>
       </div>
     </div>
   </div>
-  </form>
+  
 </div>
 </div>
 

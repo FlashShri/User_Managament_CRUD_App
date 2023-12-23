@@ -40,7 +40,7 @@
       <td><%= u.getEmail() %></td>
       <td><%= u.getPassword() %></td>
       <td><%= u.getCountry() %></td>
-      <td><a href="updateform.jsp?id=<%= u %>" class="btn btn-primary">Update</a>&nbsp
+      <td><a href="updateform.jsp?id=<%= u.getId() %>" class="btn btn-primary">Update</a>&nbsp
       	<a href="deleteservlet?id=<%=u.getId() %>" class="btn btn-primary">Delete</a>
       </td>
     </tr>
